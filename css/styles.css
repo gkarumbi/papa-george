@@ -1,0 +1,52 @@
+.jumbotron{
+    background-image: url('/images/wood-texture.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    justify-content:center ;
+}
+
+.jumbotron img{
+    float: right;
+    height: 35vh;
+}
+.jumbotron h1,h2{
+    margin-left: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.logo-container{
+    position: absolute;
+    
+    top: 0;
+    left: auto;
+        
+
+}
+
+.logo-container img{
+    float: left;
+    height: 50px;
+    display: block;
+
+}
+
+.footer li{
+display: inline;
+
+}
+
+.social-icons{
+    font-size: 30px;
+    margin: 0px 8px 0px 8px;
+}
+footer p{
+    font-weight: bold;
+}
+
+.order-container i{
+    margin: 0px 2px 0px 2px;
+    
+
+}

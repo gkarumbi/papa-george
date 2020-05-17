@@ -11,3 +11,10 @@ var toppings = {
     olives = 100,
     cheese = 150
 };
+
+var crust ={
+    crusty = 80,
+    stuffed = 140,
+    gluttenFree = 200
+};
+

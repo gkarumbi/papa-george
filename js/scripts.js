@@ -1580,7 +1580,7 @@ $("#veggeolives").click(function(){
 
 /*    SIZE: RADIO BUTTONS FUNCTIONALITY FOR MEAT DELUXE */
 
-$("#veggesmall").click(function(){
+$("#meatsmall").click(function(){
 
     var radioValue = $(this).val();
     if(radioValue){
@@ -1596,7 +1596,7 @@ $("#veggesmall").click(function(){
        '<div class="order-number">' +
            
           ' <div class="order-names">' +
-              '<h6><span class="order-name card-title">Vegge Tikka</span></h6>' +
+              '<h6><span class="order-name card-title">Meat Deluxe</span></h6>' +
                '<h6><span class="order-type card-subtitle mb-2 text-muted ">Small</span></h6>' +
 
           ' </div>'+
@@ -1613,7 +1613,7 @@ $("#veggesmall").click(function(){
     
 
 });
-$("#veggemedium").click(function(){
+$("#meatmedium").click(function(){
 
     var radioValue = $(this).val();
     if(radioValue){
@@ -1629,7 +1629,7 @@ $("#veggemedium").click(function(){
        '<div class="order-number">' +
            
           ' <div class="order-names">' +
-              '<h6><span class="order-name card-title">Vegge Tikka</span></h6>' +
+              '<h6><span class="order-name card-title">Meat Deluxe</span></h6>' +
                '<h6><span class="order-type card-subtitle mb-2 text-muted ">Medium</span></h6>' +
 
           ' </div>'+
@@ -1646,7 +1646,7 @@ $("#veggemedium").click(function(){
     
 
 });
-$("#veggelarge").click(function(){
+$("#meatlarge").click(function(){
 
     var radioValue = $(this).val();
     if(radioValue){
@@ -1662,7 +1662,7 @@ $("#veggelarge").click(function(){
        '<div class="order-number">' +
            
           ' <div class="order-names">' +
-              '<h6><span class="order-name card-title">Vegge Tikka</span></h6>' +
+              '<h6><span class="order-name card-title">Meat Deluxe</span></h6>' +
                '<h6><span class="order-type card-subtitle mb-2 text-muted ">Large</span></h6>' +
 
           ' </div>'+
@@ -1680,8 +1680,8 @@ $("#veggelarge").click(function(){
 
 });
 
-/* CRUST: RADIO BUTTONS FUNCTIONALITY FOR VEGGE TIKKA*/
-$("#veggecrispy").click(function(){
+/* CRUST: RADIO BUTTONS FUNCTIONALITY FOR MEAT DELUXE*/
+$("#meatcrispy").click(function(){
 
     var radioValue = $(this).val();
     if(radioValue){
@@ -1714,7 +1714,7 @@ $("#veggecrispy").click(function(){
     
 
 });
-$("#veggestuffed").click(function(){
+$("#meatstuffed").click(function(){
 
     var radioValue = $(this).val();
     if(radioValue){
@@ -1747,7 +1747,7 @@ $("#veggestuffed").click(function(){
     
 
 });
-$("#veggeglutenfree").click(function(){
+$("#meatglutenfree").click(function(){
 
     var radioValue = $(this).val();
     if(radioValue){
@@ -1781,8 +1781,8 @@ $("#veggeglutenfree").click(function(){
 
 });
 
-/* TOPPINGS:RADIO BUTTONS FUNCTIONALITY FOR VEGGE TIKKA */
-$("#veggecheese").click(function(){
+/* TOPPINGS:RADIO BUTTONS FUNCTIONALITY FOR MEAT DELUXE */
+$("#meatcheese").click(function(){
 
     var radioValue = $(this).val();
     if(radioValue){
@@ -1815,7 +1815,7 @@ $("#veggecheese").click(function(){
     
 
 });
-$("#veggeham").click(function(){
+$("#meatham").click(function(){
 
     var radioValue = $(this).val();
     if(radioValue){
@@ -1848,7 +1848,7 @@ $("#veggeham").click(function(){
     
 
 });
-$("#veggeolives").click(function(){
+$("#meatolives").click(function(){
 
     var radioValue = $(this).val();
     if(radioValue){
@@ -1881,58 +1881,18 @@ $("#veggeolives").click(function(){
     
 
 });
+ 
+
+$(".ordernow-button a").click(function(){
+    alert("It works")
+});
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    $('.pizza-container').click(function(event){
-               
-
-      /*   var pizzaname = targetName();
-        console.log(pizzaname); */
+ function calculateTotal(){
+    $("#order-items").each(
         
+        console.log($(".order-item-price",this).text())
+    );
+ }
 
-        
-        /* $("input[type='radio']").on('click',function(){
-            
-            
-            //var pizzaradioValue =  $("input[name='pizza']:checked").val();
-            var pizzaradioValue =  $(this).is("input[value='smallpizza']");
-           // console.log(pizzaradioValue);
-           //console.log($();
-          else if(pizzaradioValue == "mediumpizza"){
-                console.log(newPizza.pizzaSizes.medium);
-
-            } else if(pizzaradioValue =="largepizza"){
-                console.log(newPizza.pizzaSizes.large);
-
-            }
-        }); */
-
-        // $("input[type='radio']").click(function(){
-        //     var crustradioValue =  $("input[name='crust']:checked").val();
-        //     console.log(crustradioValue);
-        // });
-
-        $("input[type='checkbox']").click(function(){
-            var toppingsradioValue =  $("input[name='toppings']:checked").val();
-            console.log(toppingsradioValue);
-        });
-             
-             
-                
-       
-    });
 });

@@ -1928,17 +1928,13 @@ function  showTotalAmount(){
     totalOrderAmount = calculateToppingTotal() + calculatePizzaTotal() + calculateCrustTotal();
     console.log(totalOrderAmount);
 
-   // $("total-price").text(totalOrderAmount.toString);
+    $(".sum-price span").text(totalOrderAmount);
 }
 
 
  $(".ordernow-button a").click(function(){
      
-   /*   console.log(calculatePizzaTotal());
-     console.log(calculateCrustTotal());
-     console.log(calculateToppingTotal()); */
-     showTotalAmount();
-     
+    showTotalAmount(); 
     
     
 });

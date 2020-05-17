@@ -5,3 +5,9 @@ var sizes ={ small: 500,
     medium = 650,
     Large = 800
 };
+
+var toppings = {
+    ham: 50,
+    olives = 100,
+    cheese = 150
+};

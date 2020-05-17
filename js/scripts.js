@@ -54,7 +54,7 @@ var targetName = function(){
 }
 
 
-$(document).ready(function(){
+ $(document).ready(function(){
 
     /*    SIZE: RADIO BUTTONS FUNCTIONALITY FOR CHICKEN SUPREME */
 
@@ -1881,18 +1881,70 @@ $("#meatolives").click(function(){
     
 
 });
- 
 
-$(".ordernow-button a").click(function(){
-    alert("It works")
+   
+ 
+  var calculatePizzaTotal = function (){
+        var sum =0;
+        $("ul").each(function(){
+            
+             $(this).find(".order-item-price").each(function(){
+                // console.log($(this).text());
+                sum += parseInt($(this).text());
+             });
+            
+        });
+        return sum;
+    
+ } 
+
+ var calculateCrustTotal = function(){
+     var sum =0;
+     $("ul").each(function(){
+            
+        $(this).find(".crust-item-price").each(function(){
+           // console.log($(this).text());
+           sum += parseInt($(this).text());
+        });
+       
+   });
+   return sum;
+ }
+
+ var calculateToppingTotal = function(){
+    var sum =0;
+    $("ul").each(function(){
+           
+       $(this).find(".topping-item-price").each(function(){
+          // console.log($(this).text());
+          sum += parseInt($(this).text());
+       });
+      
+  });
+  return sum;
+}
+
+function  showTotalAmount(){
+    totalOrderAmount = calculateToppingTotal() + calculatePizzaTotal() + calculateCrustTotal();
+    console.log(totalOrderAmount);
+
+   // $("total-price").text(totalOrderAmount.toString);
+}
+
+
+ $(".ordernow-button a").click(function(){
+     
+   /*   console.log(calculatePizzaTotal());
+     console.log(calculateCrustTotal());
+     console.log(calculateToppingTotal()); */
+     showTotalAmount();
+     
+    
+    
 });
 
 
- function calculateTotal(){
-    $("#order-items").each(
-        
-        console.log($(".order-item-price",this).text())
-    );
- }
+
+
 
 });

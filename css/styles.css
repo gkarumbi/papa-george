@@ -50,3 +50,44 @@ footer p{
     
 
 }
+
+.order-number{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-price{
+    float: right;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ordernow-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:55px ;
+}
+#order-items{
+    display: none;
+}
+
+.crust-number{
+    display: flex;
+    justify-content: space-between;
+}
+
+.crust-price{
+    float: right;
+}
+.topping-number{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topping-price{
+    float: right;
+}

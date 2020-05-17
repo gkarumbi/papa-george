@@ -33,25 +33,8 @@ console.log(newPizza.pizzaSizes.small);
 console.log(newPizza.pizzaToppings.cheese);
 console.log(newPizza.pizzaCrust.crispy);
 
-/* class UI{
-    constructor(){
-        this.pizzaContainer = document.getElement
-    }
-} */
 
-//Front-end Logic
 
-var targetName = function(){
-    var target =$(event.target);
-    if(target.is('h4')){
-       // console.log(target.html());
-        targetname = target.html();
-
-    } 
-
-    return targetname;
-
-}
 
 
  $(document).ready(function(){

@@ -56,6 +56,8 @@ var targetName = function(){
 
 $(document).ready(function(){
 
+    
+
     $("#supremesmall").click(function(){
 
         var radioValue = $(this).val();
@@ -254,7 +256,105 @@ $(document).ready(function(){
         
 
     });
+    $("#supremecheese").click(function(){
 
+        var radioValue = $(this).val();
+        if(radioValue){
+            console.log(radioValue);
+            
+        }
+        if(radioValue){
+
+                
+
+            $("ul#order-items").show();
+            $("ul#order-items").append('<li class="list-group-item">' +
+           '<div class="topping-number">' +
+               
+              ' <div class="topping-names">' +
+                  '<h6><span class="topping-name card-title">Cheese</span></h6>' +
+                   
+
+              ' </div>'+
+              ' <div class="topping-price">' +
+                  ' <h6><span class="topping-item-price">' +newPizza.pizzaToppings.cheese+'</span></h6>' +
+              ' </div>' +
+
+           '</div>' +
+            '</li>'); 
+
+
+
+       } 
+        
+
+    });
+    $("#supremeham").click(function(){
+
+        var radioValue = $(this).val();
+        if(radioValue){
+            console.log(radioValue);
+            
+        }
+        if(radioValue){
+
+                
+
+            $("ul#order-items").show();
+            $("ul#order-items").append('<li class="list-group-item">' +
+           '<div class="topping-number">' +
+               
+              ' <div class="topping-names">' +
+                  '<h6><span class="topping-name card-title">Ham</span></h6>' +
+                   
+
+              ' </div>'+
+              ' <div class="topping-price">' +
+                  ' <h6><span class="topping-item-price">' +newPizza.pizzaToppings.ham+'</span></h6>' +
+              ' </div>' +
+
+           '</div>' +
+            '</li>'); 
+
+
+
+       } 
+        
+
+    });
+    $("#supremeolives").click(function(){
+
+        var radioValue = $(this).val();
+        if(radioValue){
+            console.log(radioValue);
+            
+        }
+        if(radioValue){
+
+                
+
+            $("ul#order-items").show();
+            $("ul#order-items").append('<li class="list-group-item">' +
+           '<div class="topping-number">' +
+               
+              ' <div class="topping-names">' +
+                  '<h6><span class="topping-name card-title">Cheese</span></h6>' +
+                   
+
+              ' </div>'+
+              ' <div class="topping-price">' +
+                  ' <h6><span class="topping-item-price">' +newPizza.pizzaToppings.olives+'</span></h6>' +
+              ' </div>' +
+
+           '</div>' +
+            '</li>'); 
+
+
+
+       } 
+        
+
+    });
 
 
 

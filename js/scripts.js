@@ -1172,7 +1172,7 @@ $("#hawaiglutenfree").click(function(){
 
 });
 
-/* TOPPINGS:RADIO BUTTONS FUNCTIONALITY FOR HAWAIIAN */
+/* TOPPINGS:RADIO BUTTONS FUNCTIONALITY FOR HAWAIIAN PIZZA */
 $("#hawaicheese").click(function(){
 
     var radioValue = $(this).val();
@@ -1272,6 +1272,616 @@ $("#hawaiolives").click(function(){
     
 
 });
+
+/*    SIZE: RADIO BUTTONS FUNCTIONALITY FOR VEGGE TIKKA PIZZA */
+
+$("#veggesmall").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="order-number">' +
+           
+          ' <div class="order-names">' +
+              '<h6><span class="order-name card-title">Vegge Tikka</span></h6>' +
+               '<h6><span class="order-type card-subtitle mb-2 text-muted ">Small</span></h6>' +
+
+          ' </div>'+
+          ' <div class="order-price">' +
+              ' <h6><span class="order-item-price">' +newPizza.pizzaSizes.small+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+$("#veggemedium").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="order-number">' +
+           
+          ' <div class="order-names">' +
+              '<h6><span class="order-name card-title">Vegge Tikka</span></h6>' +
+               '<h6><span class="order-type card-subtitle mb-2 text-muted ">Medium</span></h6>' +
+
+          ' </div>'+
+          ' <div class="order-price">' +
+              ' <h6><span class="order-item-price">' +newPizza.pizzaSizes.medium+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+$("#veggelarge").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="order-number">' +
+           
+          ' <div class="order-names">' +
+              '<h6><span class="order-name card-title">Vegge Tikka</span></h6>' +
+               '<h6><span class="order-type card-subtitle mb-2 text-muted ">Large</span></h6>' +
+
+          ' </div>'+
+          ' <div class="order-price">' +
+              ' <h6><span class="order-item-price">' +newPizza.pizzaSizes.large+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+
+/* CRUST: RADIO BUTTONS FUNCTIONALITY FOR VEGGE TIKKA*/
+$("#veggecrispy").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="crust-number">' +
+           
+          ' <div class="crust-names">' +
+              '<h6><span class="crust-name card-title">Crispy Crust</span></h6>' +
+               
+
+          ' </div>'+
+          ' <div class="crust-price">' +
+              ' <h6><span class="crust-item-price">' +newPizza.pizzaCrust.crispy+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+$("#veggestuffed").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="crust-number">' +
+           
+          ' <div class="crust-names">' +
+              '<h6><span class="crust-name card-title">Stuffed Crust</span></h6>' +
+               
+
+          ' </div>'+
+          ' <div class="crust-price">' +
+              ' <h6><span class="crust-item-price">' +newPizza.pizzaCrust.stuffed+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+$("#veggeglutenfree").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="crust-number">' +
+           
+          ' <div class="crust-names">' +
+              '<h6><span class="crust-name card-title">Gluten-Free Crust</span></h6>' +
+               
+
+          ' </div>'+
+          ' <div class="crust-price">' +
+              ' <h6><span class="crust-item-price">' +newPizza.pizzaCrust.gluttenFree+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+
+/* TOPPINGS:RADIO BUTTONS FUNCTIONALITY FOR VEGGE TIKKA */
+$("#veggecheese").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="topping-number">' +
+           
+          ' <div class="topping-names">' +
+              '<h6><span class="topping-name card-title">Cheese</span></h6>' +
+               
+
+          ' </div>'+
+          ' <div class="topping-price">' +
+              ' <h6><span class="topping-item-price">' +newPizza.pizzaToppings.cheese+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+$("#veggeham").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="topping-number">' +
+           
+          ' <div class="topping-names">' +
+              '<h6><span class="topping-name card-title">Ham</span></h6>' +
+               
+
+          ' </div>'+
+          ' <div class="topping-price">' +
+              ' <h6><span class="topping-item-price">' +newPizza.pizzaToppings.ham+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+$("#veggeolives").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="topping-number">' +
+           
+          ' <div class="topping-names">' +
+              '<h6><span class="topping-name card-title">Olives</span></h6>' +
+               
+
+          ' </div>'+
+          ' <div class="topping-price">' +
+              ' <h6><span class="topping-item-price">' +newPizza.pizzaToppings.olives+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+
+
+/*    SIZE: RADIO BUTTONS FUNCTIONALITY FOR MEAT DELUXE */
+
+$("#veggesmall").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="order-number">' +
+           
+          ' <div class="order-names">' +
+              '<h6><span class="order-name card-title">Vegge Tikka</span></h6>' +
+               '<h6><span class="order-type card-subtitle mb-2 text-muted ">Small</span></h6>' +
+
+          ' </div>'+
+          ' <div class="order-price">' +
+              ' <h6><span class="order-item-price">' +newPizza.pizzaSizes.small+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+$("#veggemedium").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="order-number">' +
+           
+          ' <div class="order-names">' +
+              '<h6><span class="order-name card-title">Vegge Tikka</span></h6>' +
+               '<h6><span class="order-type card-subtitle mb-2 text-muted ">Medium</span></h6>' +
+
+          ' </div>'+
+          ' <div class="order-price">' +
+              ' <h6><span class="order-item-price">' +newPizza.pizzaSizes.medium+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+$("#veggelarge").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="order-number">' +
+           
+          ' <div class="order-names">' +
+              '<h6><span class="order-name card-title">Vegge Tikka</span></h6>' +
+               '<h6><span class="order-type card-subtitle mb-2 text-muted ">Large</span></h6>' +
+
+          ' </div>'+
+          ' <div class="order-price">' +
+              ' <h6><span class="order-item-price">' +newPizza.pizzaSizes.large+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+
+/* CRUST: RADIO BUTTONS FUNCTIONALITY FOR VEGGE TIKKA*/
+$("#veggecrispy").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="crust-number">' +
+           
+          ' <div class="crust-names">' +
+              '<h6><span class="crust-name card-title">Crispy Crust</span></h6>' +
+               
+
+          ' </div>'+
+          ' <div class="crust-price">' +
+              ' <h6><span class="crust-item-price">' +newPizza.pizzaCrust.crispy+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+$("#veggestuffed").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="crust-number">' +
+           
+          ' <div class="crust-names">' +
+              '<h6><span class="crust-name card-title">Stuffed Crust</span></h6>' +
+               
+
+          ' </div>'+
+          ' <div class="crust-price">' +
+              ' <h6><span class="crust-item-price">' +newPizza.pizzaCrust.stuffed+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+$("#veggeglutenfree").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="crust-number">' +
+           
+          ' <div class="crust-names">' +
+              '<h6><span class="crust-name card-title">Gluten-Free Crust</span></h6>' +
+               
+
+          ' </div>'+
+          ' <div class="crust-price">' +
+              ' <h6><span class="crust-item-price">' +newPizza.pizzaCrust.gluttenFree+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+
+/* TOPPINGS:RADIO BUTTONS FUNCTIONALITY FOR VEGGE TIKKA */
+$("#veggecheese").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="topping-number">' +
+           
+          ' <div class="topping-names">' +
+              '<h6><span class="topping-name card-title">Cheese</span></h6>' +
+               
+
+          ' </div>'+
+          ' <div class="topping-price">' +
+              ' <h6><span class="topping-item-price">' +newPizza.pizzaToppings.cheese+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+$("#veggeham").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="topping-number">' +
+           
+          ' <div class="topping-names">' +
+              '<h6><span class="topping-name card-title">Ham</span></h6>' +
+               
+
+          ' </div>'+
+          ' <div class="topping-price">' +
+              ' <h6><span class="topping-item-price">' +newPizza.pizzaToppings.ham+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+$("#veggeolives").click(function(){
+
+    var radioValue = $(this).val();
+    if(radioValue){
+        console.log(radioValue);
+        
+    }
+    if(radioValue){
+
+            
+
+        $("ul#order-items").show();
+        $("ul#order-items").append('<li class="list-group-item">' +
+       '<div class="topping-number">' +
+           
+          ' <div class="topping-names">' +
+              '<h6><span class="topping-name card-title">Olives</span></h6>' +
+               
+
+          ' </div>'+
+          ' <div class="topping-price">' +
+              ' <h6><span class="topping-item-price">' +newPizza.pizzaToppings.olives+'</span></h6>' +
+          ' </div>' +
+
+       '</div>' +
+        '</li>'); 
+
+
+
+   } 
+    
+
+});
+
 
 
 

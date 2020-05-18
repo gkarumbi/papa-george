@@ -1914,10 +1914,18 @@ function  showTotalAmount(){
     $(".sum-price span").text(totalOrderAmount);
 }
 
+function confirmDelivery(){
+    var location = $("#deliverylocation").val();
+    var message = "Your order will be delivered to " + location;
+    alert(message);
+    $("#deliverylocation").val("");
+}
+
 
  $(".ordernow-button a").click(function(){
      
     showTotalAmount(); 
+    confirmDelivery();
     
     
 });

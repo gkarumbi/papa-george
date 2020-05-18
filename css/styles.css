@@ -91,3 +91,16 @@ footer p{
 .topping-price{
     float: right;
 }
+
+.delivery-location{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-delivery{
+    float: right;
+}
+
+.show-confirmation{
+    display: block;
+}
